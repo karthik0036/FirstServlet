@@ -7,7 +7,9 @@
 </head>
 <body>
     <h3>Hi <%= request.getAttribute("user") %>, Login Success.</h3>
-    <a href = "login.html">Login Page</a>
+    <form action="login.html">
+            <input type="submit" value="HomePage">
+        </form>
 </body>
 </html>
 
