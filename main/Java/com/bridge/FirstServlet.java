@@ -1,3 +1,5 @@
+package com.bridge;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -18,4 +20,5 @@ public class FirstServlet extends HttpServlet{
         out.close();
     }
 }
+
 
